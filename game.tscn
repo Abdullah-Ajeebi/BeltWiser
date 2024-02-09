@@ -1,0 +1,37 @@
+[gd_scene load_steps=3 format=3 uid="uid://br8o0c21uoukt"]
+
+[ext_resource type="Texture2D" uid="uid://7ebobblfolv0" path="res://Images/Belt.png" id="1_g8wmx"]
+[ext_resource type="Script" path="res://Scripts/AnimationCycler.gd" id="2_vaocx"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Belt" type="Sprite2D" parent="."]
+position = Vector2(568, 316)
+texture = ExtResource("1_g8wmx")
+hframes = 4
+script = ExtResource("2_vaocx")
+invert_direction = true
+
+[node name="Belt2" type="Sprite2D" parent="."]
+position = Vector2(576, 316)
+texture = ExtResource("1_g8wmx")
+hframes = 4
+frame = 1
+script = ExtResource("2_vaocx")
+invert_direction = true
+
+[node name="Belt3" type="Sprite2D" parent="."]
+position = Vector2(584, 316)
+texture = ExtResource("1_g8wmx")
+hframes = 4
+frame = 2
+script = ExtResource("2_vaocx")
+invert_direction = true
+
+[node name="Belt4" type="Sprite2D" parent="."]
+position = Vector2(592, 316)
+texture = ExtResource("1_g8wmx")
+hframes = 4
+frame = 3
+script = ExtResource("2_vaocx")
+invert_direction = true
